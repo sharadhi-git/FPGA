@@ -1,0 +1,159 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Dec 24 19:04:29 2025
+# Process ID         : 34268
+# Current directory  : C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25636 C:\Users\shara\OneDrive\Documents\Coding Stuff\FPGA\FPGA\verilog_basics\verilog_basics.xpr
+# Log file           : C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/vivado.log
+# Journal file       : C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics\vivado.jou
+# Running On         : Sharadhi_Lenovo
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i9-14900HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 34053 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36200 MB
+# Available Virtual  : 18317 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/boolean_exp.v} w ]
+add_files {{C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/boolean_exp.v}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/boolean_exp_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/boolean_exp_tb.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top boolean [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top boolean_exp_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+source boolean_exp_tb.tcl
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top boolean_exp [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close [ open {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/blocking_logic.v} w ]
+add_files {{C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/blocking_logic.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top blocking_logic [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/blocking_logic_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/blocking_logic_tb.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top blocking_logic_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source blocking_logic_tb.tcl
+refresh_design
+close [ open {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/non_blocking_logic.v} w ]
+add_files {{C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/non_blocking_logic.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top non_blocking_logic [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source blocking_logic_tb.tcl
+close_sim
+launch_simulation
+source blocking_logic_tb.tcl
+refresh_design
+refresh_design
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/non_blocking_logic_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/non_blocking_logic_tb.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top non_blocking_logic_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source non_blocking_logic_tb.tcl
+close_sim
+launch_simulation
+source non_blocking_logic_tb.tcl
+close [ open {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/is_prime.v} w ]
+add_files {{C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/is_prime.v}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/is_prime_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/is_prime_tb.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top is_prime [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top is_prime_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source is_prime_tb.tcl
+close_sim
+launch_simulation
+source is_prime_tb.tcl
+close_sim
+launch_simulation
+source is_prime_tb.tcl
+close_sim
+launch_simulation
+source is_prime_tb.tcl
+close_sim
+launch_simulation
+source is_prime_tb.tcl
+close_sim
