@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sources_1/new/is_prime.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module is_prime
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/shara/OneDrive/Documents/Coding Stuff/FPGA/FPGA/verilog_basics/verilog_basics.srcs/sim_1/new/is_prime_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module is_prime_tb
